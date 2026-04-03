@@ -157,6 +157,90 @@ h1 {
 .range-31-40 { background: #6b7280; }
 .range-41-45 { background: #22c55e; }
 
+.divider {
+  margin: 40px 0;
+  border: 0;
+  border-top: 1px solid var(--set-border);
+}
+
+.partnership-section {
+  margin-top: 20px;
+}
+
+.partnership-section h3 {
+  text-align: center;
+  margin-bottom: 8px;
+  color: var(--text-color);
+}
+
+.form-sub {
+  text-align: center;
+  font-size: 0.9rem;
+  color: var(--sub-text-color);
+  margin-bottom: 24px;
+}
+
+.partnership-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.form-group label {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--text-color);
+}
+
+.form-group input,
+.form-group textarea {
+  padding: 12px;
+  border-radius: 10px;
+  border: 1px solid var(--set-border);
+  background: var(--set-bg);
+  color: var(--text-color);
+  font-family: inherit;
+  font-size: 0.95rem;
+  transition: border-color 0.2s;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: var(--button-bg);
+}
+
+.form-group textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+.submit-btn {
+  border: none;
+  background: var(--button-bg);
+  color: var(--button-text);
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 14px;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: transform 0.15s ease, opacity 0.15s ease;
+  margin-top: 8px;
+}
+
+.submit-btn:hover {
+  opacity: 0.9;
+  transform: translateY(-1px);
+}
+
 .footer {
   margin-top: 24px;
   text-align: center;
